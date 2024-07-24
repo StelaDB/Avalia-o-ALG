@@ -1,4 +1,4 @@
-#Escreva um programa que receba uam mensagem e a criptografe u lizando a 
+#Escreva um programa que receba uma mensagem e a criptografe utlizando a 
 #cifra de césar, considerando a chave igual a 3 
 alfabeto = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
 mensagem = input("Digite a mensagem a ser criptografada: ")
