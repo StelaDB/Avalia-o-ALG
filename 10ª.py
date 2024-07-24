@@ -1,3 +1,4 @@
+#calcular o IMC
 p = (float(input("Insira seu peso: ")))
 a = (float(input("Insira sua altura: ")))
 if p%(a**2) < 18.5:
