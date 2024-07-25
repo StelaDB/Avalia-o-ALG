@@ -1,14 +1,9 @@
 #Faça um programa que calcule o fatorial de todos os numeros impares dentre 
 #os 10 primeiros da sequência de Fibonacci. 
-a, b = 0, 1
-c = 0
-while c < 10: 
-    f=1
-    proxn = a+b
-    a = b
-    b = proxn
-    if a % 2 != 0:
-        for i in range(1, a+1):
-            f*=i
-        print(f, end=" ")            
-    c += 1   
+fibonacci=(1, 1, 2, 3, 5, 8, 13, 21, 34, 55)
+for i in fibonacci:
+    if i%2!=0:
+        fatorial=1
+        for j in range(1,i+1):
+            fatorial*=j
+        print(fatorial)
